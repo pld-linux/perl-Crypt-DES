@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Crypt::DES
 Summary(zh_CN):	Crypt::DES Perl дё©И
 Name:		perl-Crypt-DES
 Version:	2.03
-Release:	5
+Release:	6
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
