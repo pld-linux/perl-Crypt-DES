@@ -1,0 +1,8 @@
+--- DES.pm~	Sat May 22 22:30:39 1999
++++ DES.pm	Wed Nov 10 18:23:52 1999
+@@ -1,4 +1,4 @@
+-#! /usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ #
+ # Copyright (C) 1995, 1996 Systemics Ltd (http://www.systemics.com/)
