@@ -20,12 +20,12 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Crypt::DES
 Summary(zh_CN):	Crypt::DES Perl Ä£¿é
 Name:		perl-Crypt-DES
 Version:	2.03
-Release:	4
+Release:	5
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -38,7 +38,8 @@ Crypt::DES - modu³ obs³uguj±cy algorytm szyfrowania DES.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %install
@@ -52,8 +53,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc COPYRIGHT README
-%{perl_sitearch}/Crypt/DES.pm
-%dir %{perl_sitearch}/auto/Crypt/DES
-%{perl_sitearch}/auto/Crypt/DES/DES.bs
-%attr(755,root,root) %{perl_sitearch}/auto/Crypt/DES/DES.so
+%{perl_vendorarch}/Crypt/DES.pm
+%dir %{perl_vendorarch}/auto/Crypt/DES
+%{perl_vendorarch}/auto/Crypt/DES/DES.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Crypt/DES/DES.so
 %{_mandir}/man3/*
