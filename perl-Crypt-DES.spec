@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Crypt::DES
 Summary(it):	Modulo di Perl Crypt::DES
 Summary(ja):	Crypt::DES Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Crypt::DES ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Crypt::DES
+Summary(nb):	Perlmodul Crypt::DES
 Summary(pl):	Modu³ Perla Crypt::DES
 Summary(pt):	Módulo de Perl Crypt::DES
 Summary(pt_BR):	Módulo Perl Crypt::DES
