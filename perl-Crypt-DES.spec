@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Crypt
-%define		pnam	DES
+%define	pdir	Crypt
+%define	pnam	DES
 Summary:	Crypt::DES - Perl DES encryption module
 Summary(pl):	Crypt::DES - modu³ Perla dla szyfrowania DES
 Name:		perl-Crypt-DES
