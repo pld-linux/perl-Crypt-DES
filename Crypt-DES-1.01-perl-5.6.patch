@@ -1,0 +1,21 @@
+diff -Naur Crypt-DES-1.01.ori/DES.xs Crypt-DES-1.01/DES.xs
+--- Crypt-DES-1.01.ori/DES.xs	Sat May 22 22:30:39 1999
++++ Crypt-DES-1.01/DES.xs	Sat Dec 30 06:48:27 2000
+@@ -11,6 +11,8 @@
+ 
+ MODULE = Crypt::DES		PACKAGE = Crypt::DES		PREFIX = des_
+ 
++PROTOTYPES: DISABLE
++
+ char *
+ des_expand_key(key)
+ 	char *	key = NO_INIT
+@@ -47,7 +49,7 @@
+ 		if (ks_len != sizeof(des_ks))
+ 			croak("Invalid key schedule");
+ 
+-		if (output == &sv_undef)
++		if (output == &PL_sv_undef)
+ 			output = sv_newmortal();
+ 		output_len = 8;
+ 
