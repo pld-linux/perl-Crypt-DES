@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Crypt
 %define	pnam	DES
-Summary:	Crypt-DES perl module
-Summary(pl):	Modu³ perla Crypt-DES
+Summary:	Crypt::DES perl module
+Summary(pl):	Modu³ perla Crypt::DES
 Name:		perl-Crypt-DES
 Version:	2.03
 Release:	3
@@ -14,10 +14,10 @@ BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Crypt-DES - Perl interface to DES block cipher.
+Crypt::DES - Perl interface to DES block cipher.
 
 %description -l pl
-Crypt-DES - modu³ wspomagaj±cy algorytm DES.
+Crypt::DES - modu³ wspomagaj±cy algorytm DES.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
