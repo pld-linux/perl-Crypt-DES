@@ -9,7 +9,7 @@ Summary:	Crypt::DES - Perl DES encryption module
 Summary(pl):	Crypt::DES - modu³ Perla dla szyfrowania DES
 Name:		perl-Crypt-DES
 Version:	2.03
-Release:	6
+Release:	7
 License:	BSD-like (see COPYRIGHT)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
