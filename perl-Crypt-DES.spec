@@ -1,8 +1,23 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	DES
-Summary:	Crypt::DES perl module
-Summary(pl):	Modu³ perla Crypt::DES
+%define		pdir	Crypt
+%define		pnam	DES
+Summary:	Crypt::DES Perl module
+Summary(cs):	Modul Crypt::DES pro Perl
+Summary(da):	Perlmodul Crypt::DES
+Summary(de):	Crypt::DES Perl Modul
+Summary(es):	Módulo de Perl Crypt::DES
+Summary(fr):	Module Perl Crypt::DES
+Summary(it):	Modulo di Perl Crypt::DES
+Summary(ja):	Crypt::DES Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Crypt::DES ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul Crypt::DES
+Summary(pl):	Modu³ Perla Crypt::DES
+Summary(pt):	Módulo de Perl Crypt::DES
+Summary(pt_BR):	Módulo Perl Crypt::DES
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Crypt::DES
+Summary(sv):	Crypt::DES Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Crypt::DES
+Summary(zh_CN):	Crypt::DES Perl Ä£¿é
 Name:		perl-Crypt-DES
 Version:	2.03
 Release:	4
