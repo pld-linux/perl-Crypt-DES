@@ -5,19 +5,19 @@ Summary:	Crypt::DES perl module
 Summary(pl):	Modu³ perla Crypt::DES
 Name:		perl-Crypt-DES
 Version:	2.03
-Release:	3
+Release:	4
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
+BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Crypt::DES - Perl interface to DES block cipher.
 
 %description -l pl
-Crypt::DES - modu³ wspomagaj±cy algorytm DES.
+Crypt::DES - modu³ obs³uguj±cy algorytm szyfrowania DES.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -36,6 +36,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc COPYRIGHT README
 %{perl_sitearch}/Crypt/DES.pm
 %dir %{perl_sitearch}/auto/Crypt/DES
 %{perl_sitearch}/auto/Crypt/DES/DES.bs
