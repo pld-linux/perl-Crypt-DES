@@ -4,7 +4,7 @@ Summary(pl):	Modu³ perla Crypt-DES
 Name:		perl-Crypt-DES
 Version:	1.01
 Release:	5
-License:	Distributable
+License:	distributable
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
