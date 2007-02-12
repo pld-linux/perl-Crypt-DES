@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	DES
 Summary:	Crypt::DES - Perl DES encryption module
-Summary(pl):	Crypt::DES - modu≥ Perla dla szyfrowania DES
+Summary(pl.UTF-8):   Crypt::DES - modu≈Ç Perla dla szyfrowania DES
 Name:		perl-Crypt-DES
 Version:	2.05
 Release:	0.1
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Crypt::DES is Perl interface to DES block cipher.
 
-%description -l pl
-Modu≥ Perla Crypt::DES zawiera obs≥ugÍ algorytmu szyfrowania DES.
+%description -l pl.UTF-8
+Modu≈Ç Perla Crypt::DES zawiera obs≈Çugƒô algorytmu szyfrowania DES.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
