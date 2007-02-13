@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	DES
 Summary:	Crypt::DES - Perl DES encryption module
-Summary(pl.UTF-8):   Crypt::DES - moduł Perla dla szyfrowania DES
+Summary(pl.UTF-8):	Crypt::DES - moduł Perla dla szyfrowania DES
 Name:		perl-Crypt-DES
 Version:	2.05
 Release:	0.1
