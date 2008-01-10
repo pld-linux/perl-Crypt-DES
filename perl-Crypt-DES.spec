@@ -9,7 +9,7 @@ Summary:	Crypt::DES - Perl DES encryption module
 Summary(pl.UTF-8):	Crypt::DES - moduł Perla dla szyfrowania DES
 Name:		perl-Crypt-DES
 Version:	2.05
-Release:	0.1
+Release:	1
 License:	BSD-like (see COPYRIGHT)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -31,6 +31,7 @@ Moduł Perla Crypt::DES zawiera obsługę algorytmu szyfrowania DES.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
