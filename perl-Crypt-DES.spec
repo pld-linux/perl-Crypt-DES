@@ -15,6 +15,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a8a0bea7064e11d2af434f3e468c17bb
 URL:		http://search.cpan.org/dist/Crypt-DES/
+%{?with_tests:BuildRequires:	perl-Crypt-CBC}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
