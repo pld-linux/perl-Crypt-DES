@@ -52,6 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc COPYRIGHT README
 %{perl_vendorarch}/Crypt/DES.pm
 %dir %{perl_vendorarch}/auto/Crypt/DES
-%{perl_vendorarch}/auto/Crypt/DES/DES.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/DES/DES.so
 %{_mandir}/man3/Crypt::DES.3pm*
