@@ -13,10 +13,11 @@ License:	BSD-like (see COPYRIGHT)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e845d24cf383ca4a30a3380a2735feac
-URL:		http://search.cpan.org/dist/Crypt-DES/
+URL:		https://metacpan.org/dist/Crypt-DES
 %{?with_tests:BuildRequires:	perl-Crypt-CBC}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
