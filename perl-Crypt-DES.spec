@@ -13,6 +13,7 @@ License:	BSD-like (see COPYRIGHT)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e845d24cf383ca4a30a3380a2735feac
+Patch0:		prototypes.patch
 URL:		https://metacpan.org/dist/Crypt-DES
 %{?with_tests:BuildRequires:	perl-Crypt-CBC}
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -28,6 +29,7 @@ Moduł Perla Crypt::DES zawiera obsługę algorytmu szyfrowania DES.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch -P0 -p1
 
 %build
 %{__perl} Makefile.PL \
